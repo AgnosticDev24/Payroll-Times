@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Boilerplate</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Serif+Caption|PT+Serif:400,700,400italic,700italic|Oswald:400,700'
+        rel='stylesheet' type='text/css'>
+    <style>
+        /* Hide the content initially */
+        #content {
+            display: none;
+        }
+
+        /* Center the password form */
+        .password-form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Password Form -->
+    <div id="passwordForm" class="password-form">
+        <div>
+            <h2>Password Required</h2>
+            <input type="password" id="passwordInput" class="form-control" placeholder="Enter Password">
+            <button onclick="checkPassword()" class="btn btn-info mt-2">Submit</button>
+            <p id="errorMessage" class="text-danger mt-2" style="display: none;">Incorrect password. Please try again.
+            </p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+
+    <div class="px-4 container col-12">
+        <header class="pt-5 row m-auto justify-content-center">Payroll Times</header>
+        <hr class="my-4 text-dark">
+        <time class="row col-12 m-auto justify-content-center" datetime="2025-01-10">January 10, 2025</time>
+    
+
+        <div class="row">
+            <div class="px-3 col-lg-4 col-md-6 col-sm-12 article">
+                <h1 class="sub-header font-weight-bold">New National Minimum Wage Rates Announced for 2025</h1>
+                <p>The Government has announced the new National Minimum Wage (NMW) and National Living Wage (NLW) rates for
+                    2025, following recommendations from the Low Pay Commission (LPC). These changes will take effect from
+                    April 1, 2025, and aim to ensure fair wages for workers across the UK.</p>
+                <p>The LPC’s recommendations are based on extensive consultation with employers, workers, representatives of
+                    both groups and other expert bodies, as well as a series of regional visits across the UK. They reflect
+                    unanimous agreement among Commissioners, including those representing workers, employers and independent
+                    experts.</p>
+                <p>The recommended increase in the 16-17 Year Old Rate restores that rate to its original value relative to
+                    the adult minimum wage. In line with previous recommendations, the Apprentice Rate will remain equal to
+                    the 16-17 Year Old Rate.</p>
+                <p>NMW will rise to £12.21 for those aged 21 and over, £10 for those aged 18 to 20, and £7.55 for under-18s
+                    and apprentices. These increases will mean 3.5 million workers will receive a pay rise this year in
+                    total, the government claims.</p>
+            </div>
+    
+            <div class="px-3 col-lg-4 col-md-6 col-sm-12 article">
+                <p>The penalties for non-compliance are severe and can include repayment of all underpayments going back six
+                    years and a fine of 200% of the underpayment. The government will also “name and shame” companies –
+                    Argos, Lloyds Pharmacy, and M & S are amongst some high-profile names that have all received this
+                    treatment in the past.</p>
+                <p>The increases may also inadvertently create workforce tension when employers, unable to afford generous
+                    wage increases across the board, apply smaller increases for those earning slightly above the National
+                    Minimum Wage (NMW). This has been termed ‘pay compression’ Employers in this situation may have to give
+                    thought to how they can continue to incentivise this group of workers where there is no further room for
+                    pay increases.</p>
+                <p>Employers are urged to review their payroll systems and make the necessary adjustments to comply with the
+                    new rates. Failure to comply with the new regulations could result in penalties and enforcement actions.
+                </p>
+                <p>The Government will continue to monitor the impact of these changes on both businesses and workers,
+                    ensuring that the NMW and NLW remain fair and effective tools for improving living standards.</p>
+                <p>For more detailed information, please visit the official <a
+                        href="https://www.gov.uk/government/publications/minimum-wage-rates-for-2025">Government
+                        website.</a></p>
+            </div>
+    
+            <div class="px-3 col-lg-4 col-md-6 col-sm-12 article">
+                <p class="col-12 pt-2 pb-2 quote m-auto">
+                    <i>"These new minimum wage rates reflect our commitment to ensuring that work pays and that employees
+                        are fairly rewarded for their efforts. We believe these changes will help to reduce in-work poverty
+                        and support economic growth."</i>
+                    <strong>Jonathan Reynolds</strong>- Secretary of State for Business, Energy and Industrial Strategy.
+                </p>
+                <div class="d-flex justify-content-center">
+                    <img class="m-auto" style="filter: grayscale(100%);" width="300" height="300"
+                        src="https://www.bing.com/th?id=OIP.bnjsKmjAXcD8WaeRJfZ7qwHaEK&w=174&h=185&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2">
+                </div>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="px-3 col-lg-4 col-md-6 col-sm-12 article">
+                <h1 class="sub-header font-weight-bold">Early Access to Wages: A Win-Win for Employees and Employers</h1>
+                <p>In today's fast-paced world, financial stability is a cornerstone of overall well-being. One innovative
+                    approach that has been gaining traction is offering employees early access to their earned wages. This
+                    practice, often referred to as on-demand pay or earned wage access (EWA), allows employees to access a
+                    portion of their pay before the traditional payday. This not only benefits employees but also brings
+                    significant advantages to employers.</p>
+                <p>For employees, early access to wages can be a financial lifeline. Unexpected expenses, such as medical
+                    bills or car repairs, can disrupt even the most carefully planned budgets. By providing access to earned
+                    wages when needed, employees can avoid high-interest payday loans or credit card debt. This financial
+                    flexibility can reduce stress, improve mental health, and contribute to greater overall satisfaction
+                    with their job.<br><br>
+                    Moreover, EWA programs promote financial literacy. When employees see their earnings in real time and
+                    manage their access responsibly, they become more attuned to their spending habits and budgeting
+                    practices. This increased financial awareness can lead to better money management and long-term
+                    financial stability.</p>
+                <p>Employers also stand to gain from implementing early wage access programs. One significant advantage is
+                    the potential boost in employee retention and recruitment. In a competitive job market, offering EWA can
+                    be a differentiator that attracts top talent. Employees are more likely to stay with an employer who
+                    demonstrates a commitment to their financial well-being.</p>
+            </div>
+            <div class="px-3 col-lg-4 col-md-6 col-sm-12 article">
+                <p>Studies show reducing employee financial stress can lead to higher productivity and engagement. When
+                    employees are not preoccupied with financial worries, they can focus more effectively on their work.
+                    This can result in improved performance and a more positive workplace atmosphere.</p>
+                <p>Furthermore, employers who offer EWA programs may see a reduction in absenteeism and turnover.
+                    Financially stressed employees are more likely to miss work or leave for better-paying opportunities. By
+                    providing a safety net through early wage access, employers can foster loyalty and reduce the costs
+                    associated with hiring and training new employees.</p>
+                <div class="d-flex justify-content-center">
+                    <iframe class="m-auto" width="560" height="315"
+                        src="https://www.youtube.com/embed/Hvm6GOX7WYI?si=fVzT3LDfhrCKoJZ7" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="px-3 col-lg-4 col-md-6 col-sm-12 article">
+                <h1 class="sub-header font-weight-bold">Reform MPs Earn Thousands from Elon Musk's X Platform</h1>
+                <p>In a surprising twist, several Reform MPs, including the well-known Nigel Farage, have been raking in
+                    substantial sums of money through Elon Musk's X platform. This revelation has sparked discussions about
+                    the evolving relationship between politics and social media, as these MPs participate in Musk's
+                    'Creator' revenue program. The program, designed to reward content creators, has proven lucrative for
+                    those with a significant online presence.</p>
+                <p>Nigel Farage, a prominent figure in the Reform Party, has been particularly successful in leveraging his
+                    social media following. By engaging with his audience and sharing content on X, Farage has managed to
+                    earn thousands of pounds. This development highlights the growing influence of social media platforms in
+                    shaping political discourse and providing new revenue streams for politicians.</p>
+                <p>The involvement of MPs in such programs raises questions about the ethical implications and potential
+                    conflicts of interest. As social media continues to play a crucial role in modern politics, the
+                    transparency and accountability of these financial arrangements will undoubtedly come under scrutiny.
+                    The intersection of politics and social media is a dynamic and evolving landscape, with far-reaching
+                    implications for the future of political engagement.</p>
+                <div class="d-flex justify-content-center">
+                    <img class="m-auto" style="filter: grayscale(100%);" width="450" height="315"
+                        src="https://th.bing.com/th/id/OIP._TJaeeHGRqZMSkgw3-1fGQHaFB?w=229&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
